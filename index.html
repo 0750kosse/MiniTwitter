@@ -8,13 +8,12 @@
 </head>
 
 <body>
+  <div>Mini Twitter</div>
   <form id="form">
-    <textarea id="userTweet" rows="4" cols="50" placeholder="Start tweeting here..."></textarea>
-    <input type="submit" id="submit-tweet">
+    <textarea type="text" id="userInput" value=""></textarea>
   </form>
-  <div>
-    <p id="log"></p>
-  </div>
+  <input type="submit" value="Submit" onclick="newTweet()" />
+  <div id="tweets-container">Tweets Timeline</div>
 </body>
 <script src="src/index.js"></script>
 
