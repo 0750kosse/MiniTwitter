@@ -9,10 +9,10 @@
 
 <body>
   <div>Mini Twitter</div>
-  <form id="form" onclick="clearTextArea()">
-    <textarea type="text" id="userInput" value="" onsubmit="clearTextArea()"></textarea>
-    <p id="counter" onchange="charCounter()">Tweet chars :</p>
-    <input type="submit" value="Submit" onclick="newTweet()" />
+  <form id="form" onsubmit="submitTweet()">
+    <textarea type="text" id="userInput" value="" onkeydown="charCounter()"></textarea>
+    <p id="counter">Tweet chars :</p>
+    <input type="submit" value="Submit" />
   </form>
   <div id="tweets-container">Tweets Timeline</div>
 </body>

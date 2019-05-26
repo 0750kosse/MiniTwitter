@@ -1,11 +1,7 @@
-const form = document.querySelector('form');
-
-form.addEventListener('submit', submitHandler);
-form.addEventListener('click', clearTextArea)
-form.addEventListener('input', charCounter)
-
-function submitHandler(e) {
+function submitTweet() {
   event.preventDefault();
+  newTweet();
+  clearTextArea();
 }
 
 function newTweet() {
@@ -30,8 +26,5 @@ function charCounter() {
     document.getElementById('counter').style.color = "red";
   counter.innerHTML = `${len.length}`
 }
-
-
-
 
 
