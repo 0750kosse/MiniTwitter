@@ -32,6 +32,3 @@ function charCounter() {
 }
 
 
-
-
-
