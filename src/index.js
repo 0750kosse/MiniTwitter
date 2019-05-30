@@ -22,9 +22,9 @@ function clearTextArea() {
 function charCounter() {
   const len = event.target.value
   len.length <= 20 ?
-    document.getElementById('counter').style.color = "green" :
+    document.getElementById('counter').style.color = "#1DA1F2" :
     document.getElementById('counter').style.color = "red";
-  counter.innerHTML = `${len.length}`
+  counter.innerHTML = `Tweet chars: ${len.length}`
 }
 
 

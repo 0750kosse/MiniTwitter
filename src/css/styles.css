@@ -1,0 +1,59 @@
+body {
+  margin:0;
+  border:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+ background-color:#E8F5FD;
+}
+
+.header, .main-section, .tweet-timeline {
+  font-family: 'Lobster', cursive;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.header{
+  background-color: white;
+}
+.tweet-timeline{
+  background-color: #1DA1F2
+}
+
+.header-text{
+  color:#1DA1F2
+}
+.subheading-text{
+  color:white;
+}
+#counter{
+  color:#1DA1F2
+}
+
+textarea{
+  background-color: #F5F8FA;
+}
+
+#tweet-history{
+font-family: 'Roboto', sans-serif;
+font-size: 75%;
+text-align: start;
+border-bottom: 1px solid #E8F5FD;
+padding-bottom: 5px;
+margin: 1em;
+color:white;
+}
+
+input {
+  border-radius: 15%;
+  background-color: #1DA1F2;
+  padding:10px;
+}
+
+
+
+
+

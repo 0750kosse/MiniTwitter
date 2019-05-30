@@ -4,17 +4,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   <title>Mini Twitter</title>
 </head>
 
 <body>
-  <div>Mini Twitter</div>
-  <form id="form" onsubmit="submitTweet()">
-    <textarea type="text" id="userInput" value="" onkeydown="charCounter()"></textarea>
-    <p id="counter">Tweet chars :</p>
-    <input type="submit" value="Submit" />
-  </form>
-  <div id="tweets-container">Tweets Timeline</div>
+  <div class="wrapper">
+    <div class="header">
+      <img class="header-img" src="src/css/images/twitter.png" alt="twitter bird" width="84" height="84">
+      <h1 class="header-text">Mini Twitter</h1>
+    </div>
+    <div class="main-section">
+      <form id="form" onsubmit="submitTweet()">
+        <textarea type="text" id="userInput" value="" placeholder="Tweet away..." rows="3" cols="40"
+          onkeydown="charCounter()"></textarea>
+        <p id="counter">Tweet chars:</p>
+        <input type="submit" value="Tweet" />
+      </form>
+    </div>
+    <div class="tweet-timeline" id="tweets-container">
+      <h3 class="subheading-text">Tweets Timeline</h3>
+    </div>
+  </div>
 </body>
 <script src="src/index.js"></script>
 
