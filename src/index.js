@@ -9,7 +9,7 @@ function newTweet() {
   const newTweet = document.createElement('p');
   newTweet.setAttribute("id", "tweet-history")
   const parentNode = document.getElementById('tweets-container')
-  parentNode.appendChild(newTweet)
+  parentNode.insertAdjacentElement('afterend', newTweet)
   newTweet.textContent = tweet;
 }
 
