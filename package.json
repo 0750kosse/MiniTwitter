@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This exercise recreates a reduced version of Twitter interface functionality as part of my Bootcamp course at Constructor Labs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0750kosse/MiniTwitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0750kosse/MiniTwitter/issues"
+  },
+  "homepage": "https://github.com/0750kosse/MiniTwitter#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
